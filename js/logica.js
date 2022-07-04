@@ -21,7 +21,6 @@ const swa = (mensaje) => {
         title: '¡No te olvides!',
         text: 'Colocá la cantidad de personas para tu vuelo',
         icon: 'warning',
-        // toast: true,
         timer: 8000,
         timerProgressBar: true,
     })
@@ -39,16 +38,3 @@ const cotizarVuelo = ()=> {
         swa()
         };
     }
-
-
-
-
-
-// $(document).ready(function(){
-//     $("#btnCotizar").click(function(){
-//     toastr["warning"]("Mensaje Prueba", "Título");
-//     });
-// });
-
-
-// .btnCotizar
